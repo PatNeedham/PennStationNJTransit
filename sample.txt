@@ -1,0 +1,30 @@
+"<p style=\"color:white;font-size:28pt;font-family:Arial;\">Please check <a href=\"http://www.njtransit.com\" style=\"color:white;font-size:28pt;font-family:Arial;\">www.njtransit.com</a> for schedule information.</p>
+<!DOCTYPE html>
+<html>
+<head><title>tNJT  Departures</title>
+<style type = \"text/css\">
+<!--
+ /* Font Definitions */
+ @font-face
+    {font-family:Wingdings;
+    panose-1:5 0 0 0 0 0 0 0 0 0;
+    mso-font-charset:2;
+    mso-generic-font-family:auto;
+    mso-font-pitch:variable;
+    mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+    {font-family:\"MS Mincho\";
+    panose-1:2 2 6 9 4 2 5 8 3 4;
+    mso-font-alt:\"\\FF2D\\FF33 \\660E\\671D\";
+    mso-font-charset:128;
+    mso-generic-font-family:modern;
+    mso-font-pitch:fixed;
+    mso-font-signature:-536870145 1791491579 18 0 131231 0;}
+    A{text-decoration:none}
+-->
+</style>
+<script type=\"text/javascript\">
+function DoNav(url)
+{
+   document.location.href = url;\r\n}\r\n</script>\r\n</head>\r\n<body bgcolor=\"black\">\r\n    <form method=\"post\" action=\"tid-mobile.aspx?sid=NY\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUJNzgzNDMwNTMzZGRAhQoZnVnrBCl7Jc0x5EnIuNWOp+3UvKFfambxi7WGGw==\" />\r\n\r\n    <div>\r\n    \r\n    </div>\r\n    <input type=\"hidden\" name=\"barcode\" value=\"23\" />\r\n    </form>\r\n</body>\r\n</html>\r\n","headers":{"cache-control":"private","content-type":"text/html; charset=utf-8","date":"Thu, 16 Feb 2017 00:02:22 GMT","content-length":"1308","connection":"close"},"request":{"uri":{"protocol":"http:","slashes":true,"auth":null,"host":"dv.njtransit.com","port":80,"hostname":"dv.njtransit.com","hash":null,"search":"?sid=NY","query":"sid=NY","pathname":"/mobile/tid-mobile.aspx","path":"/mobile/tid-mobile.aspx?sid=NY","href":"http://dv.njtransit.com/mobile/tid-mobile.aspx?sid=NY"},"method":"GET","headers":{}}}
+body: "<p style=\"color:white;font-size:28pt;font-family:Arial;\">Please check <a href=\"http://www.njtransit.com\" style=\"color:white;font-size:28pt;font-family:Arial;\">www.njtransit.com</a> for schedule information.</p>\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n<head><title>\r\n\tNJT  Departures\r\n</title>\r\n    <style type = \"text/css\">\r\n<!--\r\n /* Font Definitions */\r\n @font-face\r\n\t{font-family:Wingdings;\r\n\tpanose-1:5 0 0 0 0 0 0 0 0 0;\r\n\tmso-font-charset:2;\r\n\tmso-generic-font-family:auto;\r\n\tmso-font-pitch:variable;\r\n\tmso-font-signature:0 268435456 0 0 -2147483648 0;}\r\n@font-face\r\n\t{font-family:\"MS Mincho\";\r\n\tpanose-1:2 2 6 9 4 2 5 8 3 4;\r\n\tmso-font-alt:\"\\FF2D\\FF33 \\660E\\671D\";\r\n\tmso-font-charset:128;\r\n\tmso-generic-font-family:modern;\r\n\tmso-font-pitch:fixed;\r\n\tmso-font-signature:-536870145 1791491579 18 0 131231 0;}\r\n\tA{text-decoration:none} \r\n-->\r\n</style>\r\n<script type=\"text/javascript\">\r\nfunction DoNav(url)\r\n{\r\n   document.location.href = url;\r\n}\r\n</script>\r\n</head>\r\n<body bgcolor=\"black\">\r\n    <form method=\"post\" action=\"tid-mobile.aspx?sid=NY\" id=\"form1\">\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUJNzgzNDMwNTMzZGRAhQoZnVnrBCl7Jc0x5EnIuNWOp+3UvKFfambxi7WGGw==\" />\r\n\r\n    <div>\r\n    \r\n    </div>\r\n    <input type=\"hidden\" name=\"barcode\" value=\"23\" />\r\n    </form>\r\n</body>\r\n</html>\r\n"
