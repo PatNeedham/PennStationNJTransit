@@ -1,0 +1,9 @@
+service: serverless
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  scrape:
+    handler: handler.scrape

@@ -1,17 +1,16 @@
 {
-  "name": "njtransit",
+  "name": "serverless",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1",
-    "request": "^2.83.0",
-    "xmldom": "^0.1.27",
-    "xpath": "0.0.23"
+    "moment-timezone": "^0.5.17",
+    "puppeteer": "^1.5.0"
   }
 }
