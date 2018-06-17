@@ -14,7 +14,11 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-
+      
+      - run:
+          name: Change to serverless directory within repo
+          command: cd src/serverless && pwd
+      
       - run:
           name: Install Serverless CLI and dependencies
           command: |
