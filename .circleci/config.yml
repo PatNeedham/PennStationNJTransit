@@ -27,7 +27,7 @@ jobs:
       
       - run:
           name: Deploy application to development
-          command: SLS_DEBUG=* sls deploy -v
+          command: SLS_DEBUG=* pwd && sls deploy -v
       
       - save_cache:
           paths:
