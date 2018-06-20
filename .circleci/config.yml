@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:8.10
-    working_directory: ~/PennStationNJTransit/src/serverless
+    working_directory: ~/PennStationNJTransit/src/penn-station-scraper
 
     steps:
       - checkout
@@ -17,7 +17,7 @@ jobs:
       
       - run:
           name: Change to serverless directory within repo
-          command: cd src/serverless && pwd
+          command: cd src/penn-station-scraper && pwd
       
       - run:
           name: Install Serverless CLI and dependencies
