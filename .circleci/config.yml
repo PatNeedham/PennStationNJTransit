@@ -28,7 +28,7 @@ jobs:
       
       - run:
           name: Deploy application to development
-          command: pwd && ls && SLS_DEBUG=* sls deploy -v
+          command:  cd src/penn-station-scraper && pwd && ls && SLS_DEBUG=* sls deploy -v
       
       - save_cache:
           paths:
