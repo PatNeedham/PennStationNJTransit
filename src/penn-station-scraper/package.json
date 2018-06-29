@@ -1,5 +1,5 @@
 {
-  "name": "serverless",
+  "name": "penn-station-scraper",
   "version": "1.1.2",
   "description": "Starter Kit for running Headless-Chrome by Puppeteer on AWS Lambda",
   "scripts": {
