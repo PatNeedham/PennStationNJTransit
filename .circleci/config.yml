@@ -16,15 +16,10 @@ jobs:
           - v1-dependencies-
       
       - run:
-          name: Change to serverless directory within repo
-          command: cd src/penn-station-scraper && pwd
-      
-      - run:
           name: Install Serverless CLI and dependencies
           command: |
             sudo npm i -g serverless
-            pwd
-            yarn install
+            cd src/penn-station-scraper && pwd && ls && yarn install
       
       - run:
           name: Deploy application to development
