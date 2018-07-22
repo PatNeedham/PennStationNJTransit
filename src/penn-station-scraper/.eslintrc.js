@@ -1,13 +1,13 @@
 module.exports = {
-  "extends": "google",
-  "parserOptions": {
-    "ecmaVersion": 2017,
-    "sourceType": "module"
-  },
-  "rules": {
-    "semi": "off",
-    "arrow-parens": "off",
-    "require-jsdoc": "off",
-    "no-tabs": "off"
-  }
+    "extends": "google",
+    "parserOptions": {
+    	"ecmaVersion": 2017,
+    },
+    "rules": {
+        "semi": "off",
+        "require-jsdoc": "off",
+        "arrow-parens": "off",
+        "comma-dangle": "off",
+        "no-tabs": "off"
+    }
 };

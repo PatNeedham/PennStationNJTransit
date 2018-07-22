@@ -10,18 +10,21 @@ provider:
       Action:
         - "s3:PutObject"
       Resource: "arn:aws:s3:::penn-station-nj-transit-departures/*"
+   -  Effect: "Allow"
+      Action:
+        - "s3:PutObject"
+      Resource: "arn:aws:s3:::penn-station-nj-transit-departures-screenshots/*"
 
 functions:
-  scrape:
-    handler: index.scrape
+  testFunction:
+    handler: index.handler
     environment:
       DEBUG: 0
+    events:
+      - schedule: rate(1 minute)
 
 package:
   artifact: ./package.zip
-  exclude:
-    - coverage/**
-    - .circleci/**
   
 plugins:
   - serverless-hooks-plugin

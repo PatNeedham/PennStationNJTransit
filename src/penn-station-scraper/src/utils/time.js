@@ -1,5 +1,9 @@
-import moment from 'moment-timezone'
+const moment = require('moment-timezone')
 
-export function getTimestamp() {
+function getTimestamp() {
   return moment().tz('America/New_York').format('YYYY-MM-DDTHH:mm:ss')
+}
+
+module.exports = {
+  getTimestamp
 }
