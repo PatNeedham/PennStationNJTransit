@@ -4,6 +4,10 @@ The goal of this project is to serve two purposes.
 1. Consistently scan the [NJTransit departure board](http://dv.njtransit.com/mobile/tid-mobile.aspx?SID=NY) for Penn Station every 1 minute and store the information presented there in a database.
 2. Collect enough historical results on track numbers, times at which those track numbers appear, and delays, in order to create a predictive model that provides likelihoods that any given train (specified by departure time and line, like Montclair Boonton or Morristown) will depart from a specific track or be delayed.
 
+The first part is currently being done with an AWS Lambda function that runs every minute based on a CloudWatch cron expression. This was accomplished by using a [starter kit](https://github.com/sambaiz/puppeteer-lambda-starter-kit) which runs Headless-Chrome, which I am using to make the HTTP requests to the departure board URL as well as taking a screenshot of it.
+
+![alt text](./src/images/s3-buckets.png)
+
 ## Approach
 
 In order to accomplish this, there must be an automatic way to retrieve the current departure board and store the results. Historical departures must easily be queried by specifying Departure Time and Line (combination of two fields to create the primary key) along with a date range, start `YYYY-MM-DD` and end `YYYY-MM-DD` where end must be the same or after start. Results should look something like:
