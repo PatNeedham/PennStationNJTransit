@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1",
+    "express": "^4.17.1",
     "request": "^2.83.0",
     "xmldom": "^0.1.27",
     "xpath": "0.0.27"
