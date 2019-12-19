@@ -16,7 +16,7 @@
     "tar": "^4.0.1"
   },
   "devDependencies": {
-    "aws-sdk": "^2.111.0",
+    "aws-sdk": "^2.594.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "eslint": "^5.9.0",
