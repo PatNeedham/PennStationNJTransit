@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.14.1",
     "request": "^2.83.0",
-    "xmldom": "^0.1.27",
+    "xmldom": "^0.1.31",
     "xpath": "0.0.27"
   }
 }
